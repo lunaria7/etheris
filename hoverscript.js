@@ -8417,44 +8417,44 @@ var _default$3 = /*#__PURE__*/function () {
 var _default2 = exports.default = _default$3;
 },{}],"tF5U":[function(require,module,exports) {
 module.exports = "1.e7864b95.jpg";
+},{}],"pfi8":[function(require,module,exports) {
+module.exports = "10.e7aba2b1.jpg";
+},{}],"BuZG":[function(require,module,exports) {
+module.exports = "11.e75a941d.jpg";
+},{}],"PXCx":[function(require,module,exports) {
+module.exports = "13.1bbeab4e.jpg";
 },{}],"d1lz":[function(require,module,exports) {
 module.exports = "12.4061d1aa.jpg";
-},{}],"WdTg":[function(require,module,exports) {
-module.exports = "6.ac3cd742.jpg";
+},{}],"jyIW":[function(require,module,exports) {
+module.exports = "14.fab38393.jpg";
+},{}],"G9tc":[function(require,module,exports) {
+module.exports = "15.73adc2fc.jpg";
+},{}],"BoeP":[function(require,module,exports) {
+module.exports = "16.a7efd02b.jpg";
+},{}],"b5Hy":[function(require,module,exports) {
+module.exports = "17.71510293.jpg";
+},{}],"B6Rf":[function(require,module,exports) {
+module.exports = "18.c5d0ab34.jpg";
 },{}],"FKO1":[function(require,module,exports) {
 module.exports = "19.8091b01d.jpg";
+},{}],"dsSj":[function(require,module,exports) {
+module.exports = "2.dd89043e.jpg";
+},{}],"zhsa":[function(require,module,exports) {
+module.exports = "20.5528d5b7.jpg";
 },{}],"RRW1":[function(require,module,exports) {
 module.exports = "3.ecfa820e.jpg";
 },{}],"GAhP":[function(require,module,exports) {
 module.exports = "4.8ed29d64.jpg";
-},{}],"BuZG":[function(require,module,exports) {
-module.exports = "11.e75a941d.jpg";
-},{}],"G9tc":[function(require,module,exports) {
-module.exports = "15.73adc2fc.jpg";
-},{}],"PXCx":[function(require,module,exports) {
-module.exports = "13.1bbeab4e.jpg";
-},{}],"b5Hy":[function(require,module,exports) {
-module.exports = "17.71510293.jpg";
-},{}],"pfi8":[function(require,module,exports) {
-module.exports = "10.e7aba2b1.jpg";
-},{}],"BoeP":[function(require,module,exports) {
-module.exports = "16.a7efd02b.jpg";
-},{}],"jyIW":[function(require,module,exports) {
-module.exports = "14.fab38393.jpg";
-},{}],"zhsa":[function(require,module,exports) {
-module.exports = "20.5528d5b7.jpg";
-},{}],"B6Rf":[function(require,module,exports) {
-module.exports = "18.c5d0ab34.jpg";
-},{}],"dsSj":[function(require,module,exports) {
-module.exports = "2.dd89043e.jpg";
 },{}],"vF7N":[function(require,module,exports) {
 module.exports = "5.7795c51e.jpg";
+},{}],"WdTg":[function(require,module,exports) {
+module.exports = "6.ac3cd742.jpg";
 },{}],"T4g2":[function(require,module,exports) {
 module.exports = "7.4183a781.jpg";
-},{}],"ouaA":[function(require,module,exports) {
-module.exports = "9.16738e2f.jpg";
 },{}],"UzJD":[function(require,module,exports) {
 module.exports = "8.698e0dbd.jpg";
+},{}],"ouaA":[function(require,module,exports) {
+module.exports = "9.16738e2f.jpg";
 },{}],"Lpvt":[function(require,module,exports) {
 module.exports = {
   "1": require("./1.jpg"),
@@ -8478,7 +8478,7 @@ module.exports = {
   "19": require("./19.jpg"),
   "20": require("./20.jpg")
 };
-},{"./1.jpg":"tF5U","./12.jpg":"d1lz","./6.jpg":"WdTg","./19.jpg":"FKO1","./3.jpg":"RRW1","./4.jpg":"GAhP","./11.jpg":"BuZG","./15.jpg":"G9tc","./13.jpg":"PXCx","./17.jpg":"b5Hy","./10.jpg":"pfi8","./16.jpg":"BoeP","./14.jpg":"jyIW","./20.jpg":"zhsa","./18.jpg":"B6Rf","./2.jpg":"dsSj","./5.jpg":"vF7N","./7.jpg":"T4g2","./9.jpg":"ouaA","./8.jpg":"UzJD"}],"MnsR":[function(require,module,exports) {
+},{"./1.jpg":"tF5U","./10.jpg":"pfi8","./11.jpg":"BuZG","./13.jpg":"PXCx","./12.jpg":"d1lz","./14.jpg":"jyIW","./15.jpg":"G9tc","./16.jpg":"BoeP","./17.jpg":"b5Hy","./18.jpg":"B6Rf","./19.jpg":"FKO1","./2.jpg":"dsSj","./20.jpg":"zhsa","./3.jpg":"RRW1","./4.jpg":"GAhP","./5.jpg":"vF7N","./6.jpg":"WdTg","./7.jpg":"T4g2","./8.jpg":"UzJD","./9.jpg":"ouaA"}],"MnsR":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8540,23 +8540,13 @@ var MenuItem = exports.default = /*#__PURE__*/function () {
   return _createClass(MenuItem, [{
     key: "layout",
     value: function layout() {
-      // Create the hover-reveal structure
-      this.DOM.reveal = document.createElement('div');
-      this.DOM.reveal.className = 'hover-reveal';
-      this.DOM.reveal.style.transformOrigin = '0% 0%';
-      this.DOM.revealInner = document.createElement('div');
-      this.DOM.revealInner.className = 'hover-reveal__inner';
-      this.DOM.revealImage = document.createElement('div');
-      this.DOM.revealImage.className = 'hover-reveal__img';
-
-      // Use the `data-img` attribute as the background image
-      var imgSrc = this.DOM.el.dataset.img;
-      if (imgSrc) {
-        this.DOM.revealImage.style.backgroundImage = "url(".concat(imgSrc, ")");
+      // Reference the existing hover-reveal element
+      this.DOM.reveal = this.DOM.el.querySelector('.hover-reveal');
+      this.DOM.revealInner = this.DOM.reveal.querySelector('.hover-reveal__inner');
+      this.DOM.revealImage = this.DOM.reveal.querySelector('.hover-reveal__img');
+      if (!this.DOM.reveal || !this.DOM.revealInner || !this.DOM.revealImage) {
+        console.error('Hover-reveal structure missing for menu item.');
       }
-      this.DOM.revealInner.appendChild(this.DOM.revealImage);
-      this.DOM.reveal.appendChild(this.DOM.revealInner);
-      this.DOM.el.appendChild(this.DOM.reveal);
     }
   }, {
     key: "getMouseArea",
