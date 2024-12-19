@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../node_modules/gsap/gsap-core.js":[function(require,module,exports) {
+})({"TNS6":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3958,7 +3958,7 @@ var Power0 = exports.Power0 = _easeMap.Power0,
   Circ = exports.Circ = _easeMap.Circ;
 
 //export some internal methods/orojects for use in CSSPlugin so that we can externalize that file and allow custom builds that exclude it.
-},{}],"../node_modules/gsap/CSSPlugin.js":[function(require,module,exports) {
+},{}],"bp4Z":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5348,7 +5348,7 @@ _gsapCore.gsap.core.getStyleSaver = _getStyleSaver;
   _gsapCore._config.units[name] = "px";
 });
 _gsapCore.gsap.registerPlugin(CSSPlugin);
-},{"./gsap-core.js":"../node_modules/gsap/gsap-core.js"}],"../node_modules/gsap/index.js":[function(require,module,exports) {
+},{"./gsap-core.js":"TNS6"}],"TpQl":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5492,7 +5492,7 @@ var _CSSPlugin = require("./CSSPlugin.js");
 var gsapWithCSS = exports.default = exports.gsap = _gsapCore.gsap.registerPlugin(_CSSPlugin.CSSPlugin) || _gsapCore.gsap,
   // to protect from tree shaking
   TweenMaxWithCSS = exports.TweenMax = gsapWithCSS.core.Tween;
-},{"./gsap-core.js":"../node_modules/gsap/gsap-core.js","./CSSPlugin.js":"../node_modules/gsap/CSSPlugin.js"}],"js/utils.js":[function(require,module,exports) {
+},{"./gsap-core.js":"TNS6","./CSSPlugin.js":"bp4Z"}],"MgTz":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5534,7 +5534,7 @@ var getMousePos = exports.getMousePos = function getMousePos(e) {
 var getRandomFloat = exports.getRandomFloat = function getRandomFloat(min, max) {
   return (Math.random() * (max - min) + min).toFixed(2);
 };
-},{}],"js/cursor.js":[function(require,module,exports) {
+},{}],"LMRJ":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5609,7 +5609,7 @@ var Cursor = exports.default = /*#__PURE__*/function () {
     }
   }]);
 }();
-},{"gsap":"../node_modules/gsap/index.js","./utils":"js/utils.js"}],"../node_modules/ev-emitter/ev-emitter.js":[function(require,module,exports) {
+},{"gsap":"TpQl","./utils":"MgTz"}],"BQvw":[function(require,module,exports) {
 var define;
 var global = arguments[3];
 /**
@@ -5725,7 +5725,7 @@ return EvEmitter;
 
 }));
 
-},{}],"../node_modules/imagesloaded/imagesloaded.js":[function(require,module,exports) {
+},{}],"lc7f":[function(require,module,exports) {
 var define;
 /*!
  * imagesLoaded v4.1.4
@@ -6105,7 +6105,7 @@ return ImagesLoaded;
 
 });
 
-},{"ev-emitter":"../node_modules/ev-emitter/ev-emitter.js"}],"js/preloader.js":[function(require,module,exports) {
+},{"ev-emitter":"BQvw"}],"BeZ8":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -6139,7 +6139,7 @@ var preloader = exports.preloader = function preloader(selector) {
     });
   });
 };
-},{"imagesloaded":"../node_modules/imagesloaded/imagesloaded.js"}],"../node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js":[function(require,module,exports) {
+},{"imagesloaded":"lc7f"}],"ez7q":[function(require,module,exports) {
 var global = arguments[3];
 "use strict";
 
@@ -8415,47 +8415,47 @@ var _default$3 = /*#__PURE__*/function () {
   return _default;
 }();
 var _default2 = exports.default = _default$3;
-},{}],"img/demo1/10.jpg":[function(require,module,exports) {
-module.exports = "/10.e7aba2b1.jpg";
-},{}],"img/demo1/1.jpg":[function(require,module,exports) {
-module.exports = "/1.e7864b95.jpg";
-},{}],"img/demo1/11.jpg":[function(require,module,exports) {
-module.exports = "/11.e75a941d.jpg";
-},{}],"img/demo1/12.jpg":[function(require,module,exports) {
-module.exports = "/12.4061d1aa.jpg";
-},{}],"img/demo1/13.jpg":[function(require,module,exports) {
-module.exports = "/13.1bbeab4e.jpg";
-},{}],"img/demo1/14.jpg":[function(require,module,exports) {
-module.exports = "/14.fab38393.jpg";
-},{}],"img/demo1/15.jpg":[function(require,module,exports) {
-module.exports = "/15.73adc2fc.jpg";
-},{}],"img/demo1/16.jpg":[function(require,module,exports) {
-module.exports = "/16.a7efd02b.jpg";
-},{}],"img/demo1/17.jpg":[function(require,module,exports) {
-module.exports = "/17.71510293.jpg";
-},{}],"img/demo1/19.jpg":[function(require,module,exports) {
-module.exports = "/19.8091b01d.jpg";
-},{}],"img/demo1/18.jpg":[function(require,module,exports) {
-module.exports = "/18.c5d0ab34.jpg";
-},{}],"img/demo1/2.jpg":[function(require,module,exports) {
-module.exports = "/2.dd89043e.jpg";
-},{}],"img/demo1/20.jpg":[function(require,module,exports) {
-module.exports = "/20.5528d5b7.jpg";
-},{}],"img/demo1/3.jpg":[function(require,module,exports) {
-module.exports = "/3.ecfa820e.jpg";
-},{}],"img/demo1/4.jpg":[function(require,module,exports) {
-module.exports = "/4.8ed29d64.jpg";
-},{}],"img/demo1/5.jpg":[function(require,module,exports) {
-module.exports = "/5.7795c51e.jpg";
-},{}],"img/demo1/6.jpg":[function(require,module,exports) {
-module.exports = "/6.ac3cd742.jpg";
-},{}],"img/demo1/7.jpg":[function(require,module,exports) {
-module.exports = "/7.4183a781.jpg";
-},{}],"img/demo1/9.jpg":[function(require,module,exports) {
-module.exports = "/9.16738e2f.jpg";
-},{}],"img/demo1/8.jpg":[function(require,module,exports) {
-module.exports = "/8.698e0dbd.jpg";
-},{}],"img/demo1/*.jpg":[function(require,module,exports) {
+},{}],"tF5U":[function(require,module,exports) {
+module.exports = "1.e7864b95.jpg";
+},{}],"d1lz":[function(require,module,exports) {
+module.exports = "12.4061d1aa.jpg";
+},{}],"WdTg":[function(require,module,exports) {
+module.exports = "6.ac3cd742.jpg";
+},{}],"FKO1":[function(require,module,exports) {
+module.exports = "19.8091b01d.jpg";
+},{}],"RRW1":[function(require,module,exports) {
+module.exports = "3.ecfa820e.jpg";
+},{}],"GAhP":[function(require,module,exports) {
+module.exports = "4.8ed29d64.jpg";
+},{}],"BuZG":[function(require,module,exports) {
+module.exports = "11.e75a941d.jpg";
+},{}],"G9tc":[function(require,module,exports) {
+module.exports = "15.73adc2fc.jpg";
+},{}],"PXCx":[function(require,module,exports) {
+module.exports = "13.1bbeab4e.jpg";
+},{}],"b5Hy":[function(require,module,exports) {
+module.exports = "17.71510293.jpg";
+},{}],"pfi8":[function(require,module,exports) {
+module.exports = "10.e7aba2b1.jpg";
+},{}],"BoeP":[function(require,module,exports) {
+module.exports = "16.a7efd02b.jpg";
+},{}],"jyIW":[function(require,module,exports) {
+module.exports = "14.fab38393.jpg";
+},{}],"zhsa":[function(require,module,exports) {
+module.exports = "20.5528d5b7.jpg";
+},{}],"B6Rf":[function(require,module,exports) {
+module.exports = "18.c5d0ab34.jpg";
+},{}],"dsSj":[function(require,module,exports) {
+module.exports = "2.dd89043e.jpg";
+},{}],"vF7N":[function(require,module,exports) {
+module.exports = "5.7795c51e.jpg";
+},{}],"T4g2":[function(require,module,exports) {
+module.exports = "7.4183a781.jpg";
+},{}],"ouaA":[function(require,module,exports) {
+module.exports = "9.16738e2f.jpg";
+},{}],"UzJD":[function(require,module,exports) {
+module.exports = "8.698e0dbd.jpg";
+},{}],"Lpvt":[function(require,module,exports) {
 module.exports = {
   "1": require("./1.jpg"),
   "2": require("./2.jpg"),
@@ -8478,7 +8478,7 @@ module.exports = {
   "19": require("./19.jpg"),
   "20": require("./20.jpg")
 };
-},{"./10.jpg":"img/demo1/10.jpg","./1.jpg":"img/demo1/1.jpg","./11.jpg":"img/demo1/11.jpg","./12.jpg":"img/demo1/12.jpg","./13.jpg":"img/demo1/13.jpg","./14.jpg":"img/demo1/14.jpg","./15.jpg":"img/demo1/15.jpg","./16.jpg":"img/demo1/16.jpg","./17.jpg":"img/demo1/17.jpg","./19.jpg":"img/demo1/19.jpg","./18.jpg":"img/demo1/18.jpg","./2.jpg":"img/demo1/2.jpg","./20.jpg":"img/demo1/20.jpg","./3.jpg":"img/demo1/3.jpg","./4.jpg":"img/demo1/4.jpg","./5.jpg":"img/demo1/5.jpg","./6.jpg":"img/demo1/6.jpg","./7.jpg":"img/demo1/7.jpg","./9.jpg":"img/demo1/9.jpg","./8.jpg":"img/demo1/8.jpg"}],"js/demo1/menuItem.js":[function(require,module,exports) {
+},{"./1.jpg":"tF5U","./12.jpg":"d1lz","./6.jpg":"WdTg","./19.jpg":"FKO1","./3.jpg":"RRW1","./4.jpg":"GAhP","./11.jpg":"BuZG","./15.jpg":"G9tc","./13.jpg":"PXCx","./17.jpg":"b5Hy","./10.jpg":"pfi8","./16.jpg":"BoeP","./14.jpg":"jyIW","./20.jpg":"zhsa","./18.jpg":"B6Rf","./2.jpg":"dsSj","./5.jpg":"vF7N","./7.jpg":"T4g2","./9.jpg":"ouaA","./8.jpg":"UzJD"}],"MnsR":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8540,17 +8540,20 @@ var MenuItem = exports.default = /*#__PURE__*/function () {
   return _createClass(MenuItem, [{
     key: "layout",
     value: function layout() {
-      // this is the element that gets its position animated (and perhaps other properties like the rotation etc..)
+      // Create the hover-reveal structure
       this.DOM.reveal = document.createElement('div');
       this.DOM.reveal.className = 'hover-reveal';
       this.DOM.reveal.style.transformOrigin = '0% 0%';
-      // the next two elements could actually be only one, the image element
-      // adding an extra wrapper (revealInner) around the image element with overflow hidden, gives us the possibility to scale the image inside
       this.DOM.revealInner = document.createElement('div');
       this.DOM.revealInner.className = 'hover-reveal__inner';
       this.DOM.revealImage = document.createElement('div');
       this.DOM.revealImage.className = 'hover-reveal__img';
-      this.DOM.revealImage.style.backgroundImage = "url(".concat(images[this.inMenuPosition][1], ")");
+
+      // Use the `data-img` attribute as the background image
+      var imgSrc = this.DOM.el.dataset.img;
+      if (imgSrc) {
+        this.DOM.revealImage.style.backgroundImage = "url(".concat(imgSrc, ")");
+      }
       this.DOM.revealInner.appendChild(this.DOM.revealImage);
       this.DOM.reveal.appendChild(this.DOM.revealInner);
       this.DOM.el.appendChild(this.DOM.reveal);
@@ -8597,29 +8600,24 @@ var MenuItem = exports.default = /*#__PURE__*/function () {
     key: "showImage",
     value: function showImage() {
       var _this2 = this;
-      // kill any current tweens
+      // Kill any existing animations
       _gsap.gsap.killTweensOf(this.DOM.revealInner);
       _gsap.gsap.killTweensOf(this.DOM.revealImage);
       this.tl = _gsap.gsap.timeline({
         onStart: function onStart() {
-          // show both image and its parent element
+          // Show both the image and its parent element
           _this2.DOM.reveal.style.opacity = _this2.DOM.revealInner.style.opacity = 1;
-          // set a high z-index value so image appears on top of other elements
           _gsap.gsap.set(_this2.DOM.el, {
-            zIndex: images.length
+            zIndex: 100
           });
         }
-      })
-      // animate the image wrap
-      .to(this.DOM.revealInner, 0.6, {
+      }).to(this.DOM.revealInner, 0.6, {
         ease: 'Expo.easeOut',
         startAt: {
           scale: 0.6
         },
         scale: 1
-      })
-      // animate the image element
-      .to(this.DOM.revealImage, 0.6, {
+      }).to(this.DOM.revealImage, 0.6, {
         ease: 'Expo.easeOut',
         startAt: {
           scale: 1.4
@@ -8627,12 +8625,10 @@ var MenuItem = exports.default = /*#__PURE__*/function () {
         scale: 1
       }, 0);
     }
-    // hide the image element
   }, {
     key: "hideImage",
     value: function hideImage() {
       var _this3 = this;
-      // kill any current tweens
       _gsap.gsap.killTweensOf(this.DOM.revealInner);
       _gsap.gsap.killTweensOf(this.DOM.revealImage);
       this.tl = _gsap.gsap.timeline({
@@ -8655,6 +8651,7 @@ var MenuItem = exports.default = /*#__PURE__*/function () {
         scale: 1.4
       }, 0);
     }
+
     // start the render loop animation (rAF)
   }, {
     key: "loopRender",
@@ -8727,7 +8724,7 @@ var MenuItem = exports.default = /*#__PURE__*/function () {
     }
   }]);
 }();
-},{"gsap":"../node_modules/gsap/index.js","../utils":"js/utils.js","../../img/demo1/*.jpg":"img/demo1/*.jpg"}],"js/demo1/menu.js":[function(require,module,exports) {
+},{"gsap":"TpQl","../utils":"MgTz","../../img/demo1/*.jpg":"Lpvt"}],"WLFM":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8819,7 +8816,7 @@ var Menu = exports.default = /*#__PURE__*/function () {
     }
   }]);
 }();
-},{"gsap":"../node_modules/gsap/index.js","./menuItem":"js/demo1/menuItem.js"}],"js/demo1/index.js":[function(require,module,exports) {
+},{"gsap":"TpQl","./menuItem":"MnsR"}],"C3Xv":[function(require,module,exports) {
 "use strict";
 
 var _cursor = _interopRequireDefault(require("../cursor"));
@@ -8844,174 +8841,4 @@ var menuEl = document.querySelector('.menu');
   // initialize menu
   new _menu.default(menuEl);
 });
-},{"../cursor":"js/cursor.js","../preloader":"js/preloader.js","locomotive-scroll":"../node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js","./menu":"js/demo1/menu.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
-var global = arguments[3];
-var OVERLAY_ID = '__parcel__error__overlay__';
-var OldModule = module.bundle.Module;
-function Module(moduleName) {
-  OldModule.call(this, moduleName);
-  this.hot = {
-    data: module.bundle.hotData,
-    _acceptCallbacks: [],
-    _disposeCallbacks: [],
-    accept: function (fn) {
-      this._acceptCallbacks.push(fn || function () {});
-    },
-    dispose: function (fn) {
-      this._disposeCallbacks.push(fn);
-    }
-  };
-  module.bundle.hotData = null;
-}
-module.bundle.Module = Module;
-var checkedAssets, assetsToAccept;
-var parent = module.bundle.parent;
-if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = "" || location.hostname;
-  var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50893" + '/');
-  ws.onmessage = function (event) {
-    checkedAssets = {};
-    assetsToAccept = [];
-    var data = JSON.parse(event.data);
-    if (data.type === 'update') {
-      var handled = false;
-      data.assets.forEach(function (asset) {
-        if (!asset.isNew) {
-          var didAccept = hmrAcceptCheck(global.parcelRequire, asset.id);
-          if (didAccept) {
-            handled = true;
-          }
-        }
-      });
-
-      // Enable HMR for CSS by default.
-      handled = handled || data.assets.every(function (asset) {
-        return asset.type === 'css' && asset.generated.js;
-      });
-      if (handled) {
-        console.clear();
-        data.assets.forEach(function (asset) {
-          hmrApply(global.parcelRequire, asset);
-        });
-        assetsToAccept.forEach(function (v) {
-          hmrAcceptRun(v[0], v[1]);
-        });
-      } else if (location.reload) {
-        // `location` global exists in a web worker context but lacks `.reload()` function.
-        location.reload();
-      }
-    }
-    if (data.type === 'reload') {
-      ws.close();
-      ws.onclose = function () {
-        location.reload();
-      };
-    }
-    if (data.type === 'error-resolved') {
-      console.log('[parcel] ✨ Error resolved');
-      removeErrorOverlay();
-    }
-    if (data.type === 'error') {
-      console.error('[parcel] 🚨  ' + data.error.message + '\n' + data.error.stack);
-      removeErrorOverlay();
-      var overlay = createErrorOverlay(data);
-      document.body.appendChild(overlay);
-    }
-  };
-}
-function removeErrorOverlay() {
-  var overlay = document.getElementById(OVERLAY_ID);
-  if (overlay) {
-    overlay.remove();
-  }
-}
-function createErrorOverlay(data) {
-  var overlay = document.createElement('div');
-  overlay.id = OVERLAY_ID;
-
-  // html encode message and stack trace
-  var message = document.createElement('div');
-  var stackTrace = document.createElement('pre');
-  message.innerText = data.error.message;
-  stackTrace.innerText = data.error.stack;
-  overlay.innerHTML = '<div style="background: black; font-size: 16px; color: white; position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; padding: 30px; opacity: 0.85; font-family: Menlo, Consolas, monospace; z-index: 9999;">' + '<span style="background: red; padding: 2px 4px; border-radius: 2px;">ERROR</span>' + '<span style="top: 2px; margin-left: 5px; position: relative;">🚨</span>' + '<div style="font-size: 18px; font-weight: bold; margin-top: 20px;">' + message.innerHTML + '</div>' + '<pre>' + stackTrace.innerHTML + '</pre>' + '</div>';
-  return overlay;
-}
-function getParents(bundle, id) {
-  var modules = bundle.modules;
-  if (!modules) {
-    return [];
-  }
-  var parents = [];
-  var k, d, dep;
-  for (k in modules) {
-    for (d in modules[k][1]) {
-      dep = modules[k][1][d];
-      if (dep === id || Array.isArray(dep) && dep[dep.length - 1] === id) {
-        parents.push(k);
-      }
-    }
-  }
-  if (bundle.parent) {
-    parents = parents.concat(getParents(bundle.parent, id));
-  }
-  return parents;
-}
-function hmrApply(bundle, asset) {
-  var modules = bundle.modules;
-  if (!modules) {
-    return;
-  }
-  if (modules[asset.id] || !bundle.parent) {
-    var fn = new Function('require', 'module', 'exports', asset.generated.js);
-    asset.isNew = !modules[asset.id];
-    modules[asset.id] = [fn, asset.deps];
-  } else if (bundle.parent) {
-    hmrApply(bundle.parent, asset);
-  }
-}
-function hmrAcceptCheck(bundle, id) {
-  var modules = bundle.modules;
-  if (!modules) {
-    return;
-  }
-  if (!modules[id] && bundle.parent) {
-    return hmrAcceptCheck(bundle.parent, id);
-  }
-  if (checkedAssets[id]) {
-    return;
-  }
-  checkedAssets[id] = true;
-  var cached = bundle.cache[id];
-  assetsToAccept.push([bundle, id]);
-  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
-    return true;
-  }
-  return getParents(global.parcelRequire, id).some(function (id) {
-    return hmrAcceptCheck(global.parcelRequire, id);
-  });
-}
-function hmrAcceptRun(bundle, id) {
-  var cached = bundle.cache[id];
-  bundle.hotData = {};
-  if (cached) {
-    cached.hot.data = bundle.hotData;
-  }
-  if (cached && cached.hot && cached.hot._disposeCallbacks.length) {
-    cached.hot._disposeCallbacks.forEach(function (cb) {
-      cb(bundle.hotData);
-    });
-  }
-  delete bundle.cache[id];
-  bundle(id);
-  cached = bundle.cache[id];
-  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
-    cached.hot._acceptCallbacks.forEach(function (cb) {
-      cb();
-    });
-    return true;
-  }
-}
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/demo1/index.js"], null)
-//# sourceMappingURL=/demo1.151408fb.js.map
+},{"../cursor":"LMRJ","../preloader":"BeZ8","locomotive-scroll":"ez7q","./menu":"WLFM"}]},{},["C3Xv"], null)
